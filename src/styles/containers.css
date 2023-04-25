@@ -1,0 +1,10 @@
+.mainContainer {
+    padding: 0 8%;
+}
+/* .contentContainer{
+    border: 1px solid green;
+} */
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,10 @@
+.numberDivisor {
+    line-height: 1px;
+    margin: 0;
+    padding: 0 30%;
+    text-align: center;
+    color: gray;
+    font-size: 10em;
+    font-weight: 800;
+    transform: translateY(-10px);
+}
