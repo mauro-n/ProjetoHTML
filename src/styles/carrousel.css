@@ -2,6 +2,14 @@
     display: flex;
     align-items: center;
 }
+.carrousel__content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.carrousel__item {
+    margin: 1%;
+}
 .arrow {
     margin: 10px;
 }

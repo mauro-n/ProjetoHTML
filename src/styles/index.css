@@ -3,15 +3,19 @@
 @import url("./util.css");
 @import url("./mQuery.css");
 @import url("./carrousel.css");
+@import url("./footer.css");
 
 h1 {
-    font-size: calc(2.8em + 3vw)!important;
+    font-size: calc(2.8em + 3vw);
 }
 p{
-    font-size: calc(1.7em + 0.3vw)!important;
+    font-size: calc(1.7em + 0.3vw);
 }
 section {
     margin: 30px 0;
+}
+.hero__img {
+    width: 100%;
 }
 
 
@@ -27,6 +31,10 @@ section {
     justify-content: end;
 }
 
+.header__text--left {
+    text-align: end;
+}
+
 .header__text p {
     font-size: 1.7em;
     padding: 0 10px 0 10px;
@@ -34,14 +42,10 @@ section {
 
 .header__text h1 {
     margin: 0px;
-    margin-bottom: 0;
-    font-size: 5em;
 }
 
 .header__text h2 {
     margin: 0px;
-    margin-bottom: 0;
-    font-size: 3em;
 }
 
 .header__banner {
@@ -71,12 +75,19 @@ section {
     body {
         text-align: center;
     }
+    .mainContainer {
+        padding: 0;
+    }
     .headerContainer{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .header__text {
         width: 100%;
+    }
+    .header__text--left {
+        text-align: center;
     }
     .header__banner {
         width: 100%;
@@ -84,10 +95,24 @@ section {
         align-items: center;
         justify-content: end;
     }
+    .header__banner__figure {
+        padding: 0;
+    }
     .numberDivider {
         text-align: center;
     }
+    .carrousel {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .carrousel__content {
+        order: -1;
+        overflow-x: scroll;
+    }
     .carrousel__banner {
+        display: none;
+    }
+    .arrow {
         display: none;
     }
 }
